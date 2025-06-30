@@ -1,6 +1,6 @@
 # -portfolio
 
-A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
+A Visual Studio Code themed  portfolio website built with Next.js and deployed on Vercel.
 
 
 
