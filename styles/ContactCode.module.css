@@ -1,3 +1,4 @@
+
 .code {
   counter-reset: line;
   font-size: 1.2rem;
@@ -7,7 +8,10 @@
   padding: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .code::before {
@@ -20,6 +24,8 @@
   background: var(--accent-color);
 }
 
+/* ---------- Line Numbering ---------- */
+
 .line {
   position: relative;
   padding-left: 2.5rem;
@@ -31,11 +37,12 @@
   position: absolute;
   left: 0;
   top: 0;
-  margin-right: 1rem;
   color: grey;
   font-size: 0.9rem;
   opacity: 0.8;
 }
+
+/* ---------- Code Styling ---------- */
 
 .code a {
   color: var(--accent-color);
@@ -49,6 +56,8 @@
 .className {
   color: var(--accent-color);
 }
+
+/* ---------- Responsive Styling ---------- */
 
 @media screen and (max-width: 600px) {
   .code {
