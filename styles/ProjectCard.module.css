@@ -11,6 +11,7 @@
   transition: all 0.25s ease;
   text-decoration: none;
   color: inherit;
+  width: 100%;
 }
 
 .card:hover {
@@ -133,4 +134,41 @@
 
 .underline:hover {
   background-size: 100% 88%;
+}
+
+/* ✅ Responsive Styling for Mobile */
+@media screen and (max-width: 600px) {
+  .card {
+    height: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .link {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .logoWrapper {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
 }
