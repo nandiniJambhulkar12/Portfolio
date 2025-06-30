@@ -1,3 +1,5 @@
+
+
 .layout {
   max-width: 900px;
   margin: 0 auto;
@@ -7,6 +9,7 @@
 .container {
   display: flex;
   justify-content: center;
+  padding: 2rem 1rem;
 }
 
 .container > * {
@@ -23,6 +26,8 @@
   display: flex;
   gap: 1rem;
 }
+
+/* ---------- Title & Subtitle ---------- */
 
 .pageTitle {
   font-size: 2rem;
@@ -47,10 +52,11 @@
   margin-right: auto;
 }
 
+/* ---------- Responsive Styles ---------- */
+
 @media screen and (max-width: 1200px) {
   .container {
     display: block;
-    padding: 2rem 1rem;
   }
 
   .container > div:first-child {
