@@ -1,0 +1,41 @@
+[
+  {
+    "category": "Languages",
+    "items": ["Python", "Java", "SQL"]
+  },
+  {
+    "category": "Web Development",
+    "items": ["HTML", "CSS", "JavaScript", "Bootstrap", "Django"]
+  },
+  {
+    "category": "AI/ML & Data",
+    "items": ["Machine Learning (Scikit-Learn)",
+    "Deep Learning (Tensorflow & Keras)",
+    "Natural Language Processing",
+    "Streamlit"]
+  },
+  {
+  "category": "Libraries & Frameworks",
+  "items": [
+    "TensorFlow", "Keras",  "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn",
+    "OpenCV", "NLTK", "spaCy", "Vector Database(Pinecone)"
+  ]
+},
+ {
+  "category": "Development Tools",
+  "items": ["Git", "VS Code", "Colab", "Vercel","Render", "Jupyter Notebook", "IntelliJ IDEA"]
+},
+{
+  "category": "Core Technical Knowledge",
+  "items": [
+    "Data Structures & Algorithms (JAVA)",
+    "Object-Oriented Programming (OOP)",
+    "Operating Systems",
+    "Database Management Systems (DBMS)",
+    "Computer Networks",
+    "Software Development Life Cycle (SDLC)"
+  ]
+}
+
+
+]
