@@ -84,6 +84,10 @@
   letter-spacing: 0.05em;
   position: relative;
   display: inline-block;
+  word-break: break-word;       /* ✅ Fix overflow for long names */
+  overflow-wrap: break-word;    /* ✅ Extra compatibility */
+  max-width: 100%;
+  text-align: center;
 }
 
 .username::before {
@@ -247,5 +251,16 @@
 @media screen and (min-width: 768px) and (max-width: 900px) {
   .reposContainer {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ✅ Extra small screen support */
+@media screen and (max-width: 480px) {
+  .username {
+    font-size: 0.8rem;
+  }
+
+  .username::before {
+    font-size: 1.2rem;
   }
 }
