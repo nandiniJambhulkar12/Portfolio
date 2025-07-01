@@ -257,10 +257,19 @@
 /* ✅ Extra small screen support */
 @media screen and (max-width: 480px) {
   .username {
-    font-size: 0.8rem;
+    font-size: 0.9rem;              
+    white-space: nowrap;          
+    overflow-x: auto;              
+    max-width: 100%;
+    text-align: center;
   }
+
+  .username::before {
+    font-size: 0.9rem;
+  }
+}
 
   .username::before {
     font-size: 1.2rem;
   }
-}
+
